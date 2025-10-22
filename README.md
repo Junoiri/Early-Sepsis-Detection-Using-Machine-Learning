@@ -23,7 +23,7 @@ Sepsis is a life-threatening condition that occurs when the body overreacts to a
 
 It can quickly lead to organ failure or death if not recognized and treated early.
 
-The main problem is **time** — every hour of delay in diagnosis lowers the patient’s chances of survival.
+The main problem is **time** -every hour of delay in diagnosis lowers the patient’s chances of survival.
 
 Doctors in intensive care units (ICUs) monitor many parameters, but the signs of sepsis often appear gradually and can be missed.
 
@@ -39,7 +39,7 @@ The idea is to give doctors and nurses an early warning, so they can react faste
 
 In simple terms:
 
-> We want an AI system that says, “Hey, this patient might develop sepsis soon — check them now.”
+> We want an AI system that says, “Hey, this patient might develop sepsis soon -check them now.”
 
 ---
 
@@ -69,7 +69,7 @@ This time window is often used in clinical research because it strikes the right
 
 Predicting too early (12–24 hours) reduces reliability, while predicting too late leaves no time for action.
 
-A **6-hour window** gives doctors a realistic amount of time to confirm the diagnosis, start antibiotics or fluids, and prevent further organ damage — while still keeping the model’s predictions accurate and trustworthy.
+A **6-hour window** gives doctors a realistic amount of time to confirm the diagnosis, start antibiotics or fluids, and prevent further organ damage -while still keeping the model’s predictions accurate and trustworthy.
 
 In short, it’s a **sweet spot** between **model performance** and **clinical usefulness**.
 
@@ -81,7 +81,7 @@ We will train a machine learning model that looks at a few hours of patient data
 
 Technically, it will try to detect **sepsis up to 6 hours before** it’s clinically confirmed.
 
-If the model sees warning signs — for example, a drop in blood pressure combined with rising lactate levels — it will calculate a **risk probability** between 0 and 1.
+If the model sees warning signs -for example, a drop in blood pressure combined with rising lactate levels -it will calculate a **risk probability** between 0 and 1.
 
 This probability represents how likely the patient is to develop sepsis in the next few hours.
 
@@ -144,7 +144,7 @@ This combination makes our approach **implementation-ready and clinically meanin
 
 ---
 
-### 7. Integration Idea — “AI Hospital Add-On”
+### 7. Integration Idea -“AI Hospital Add-On”
 
 In the future, our tool could work as an **add-on to hospital systems**, like an “AI-based alert module.”
 
@@ -152,7 +152,7 @@ It would automatically analyze patient data in real time and send a notification
 
 If something abnormal is detected, a doctor or nurse would immediately receive an alert saying that the patient might be developing sepsis soon.
 
-This kind of early warning could help staff take action sooner — for instance, start antibiotics or fluids earlier — and potentially **save lives**.
+This kind of early warning could help staff take action sooner -for instance, start antibiotics or fluids earlier -and potentially **save lives**.
 
 ---
 
@@ -168,11 +168,11 @@ This kind of early warning could help staff take action sooner — for instance,
 
 ### 9. Why This Project Matters
 
-AI is slowly becoming part of clinical decision-support systems, but **early sepsis prediction using time-series machine learning** remains rare — especially in European hospitals.
+AI is slowly becoming part of clinical decision-support systems, but **early sepsis prediction using time-series machine learning** remains rare -especially in European hospitals.
 
 By focusing on **real-time probability tracking** and **seamless integration with existing systems**, our project stands out from previous Kaggle-style solutions.
 
-If successful, this framework could be adapted for detecting other critical conditions — like septic shock, respiratory failure, or cardiac arrest.
+If successful, this framework could be adapted for detecting other critical conditions -like septic shock, respiratory failure, or cardiac arrest.
 
 ---
 
