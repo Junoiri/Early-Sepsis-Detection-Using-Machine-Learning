@@ -2,12 +2,12 @@
 # Early Sepsis Detection Using Machine Learning
 AI-based early warning system for sepsis detection, predicting onset up to 6 hours before diagnosis using ICU time-series data.
 
-### Group Members
+### Group members
 - Pola Polańska  
 - Marta Sadłowska  
 - Łukasz Stecyk
 
-### Learn Model Canvas
+### Learn model canvas
 You can view our full project canvas here:
 [**Miro Board – Early Sepsis Detection Project**](https://miro.com/app/board/uXjVJ9P2hXQ=/?share_link_id=876634889655)
 
