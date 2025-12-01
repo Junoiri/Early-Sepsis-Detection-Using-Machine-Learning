@@ -5,7 +5,11 @@ AI-based early warning system for sepsis detection, predicting onset up to 6 hou
 ### Group Members
 - Pola Polańska  
 - Marta Sadłowska  
-- Łukasz Stecyk  
+- Łukasz Stecyk
+
+### Learn Model Canvas
+You can view our full project canvas here:
+[**Miro Board – Early Sepsis Detection Project**](https://miro.com/app/board/uXjVJ9P2hXQ=/?share_link_id=876634889655)
 
 ---
 ### 1.Background
