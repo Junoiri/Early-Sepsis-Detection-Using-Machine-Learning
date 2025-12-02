@@ -24,7 +24,7 @@ We focus on predicting sepsis up to six hours before diagnosis. This window refl
 
 ### 4. Modelling approach
 The workflow includes data preprocessing, exploratory analysis, feature engineering, and model training.
-We build two types of models:
+We used two types of models:
 Classical machine learning models based on engineered features, including logistic regression, random forests, and gradient boosting (XGBoost and LightGBM).
 Sequence models trained directly on hourly time-series windows, including LSTM and GRU networks.
 Each model outputs a probability of sepsis within the next six hours.
